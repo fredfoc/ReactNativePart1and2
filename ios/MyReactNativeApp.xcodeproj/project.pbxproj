@@ -10,6 +10,8 @@
 		26FD7F2D2F0248FC7D0FBA3E /* Pods_MyReactNativeApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D58275CE41EBCED7EE9EB56 /* Pods_MyReactNativeApp.framework */; };
 		9A58EBB2201B85F400360188 /* MyNativeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A58EBB1201B85F400360188 /* MyNativeModule.swift */; };
 		9A58EBB5201B8B1200360188 /* MyNativeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A58EBB4201B8B1200360188 /* MyNativeModule.m */; };
+		9A58EBB7201F77A100360188 /* AnotherNativeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A58EBB6201F77A100360188 /* AnotherNativeModule.swift */; };
+		9A58EBB9201F781A00360188 /* AnotherNativeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A58EBB8201F781A00360188 /* AnotherNativeModule.m */; };
 		9ADCA94E201B6B680075D05A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADCA94D201B6B680075D05A /* AppDelegate.swift */; };
 		9ADCA950201B6B680075D05A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADCA94F201B6B680075D05A /* ViewController.swift */; };
 		9ADCA953201B6B680075D05A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ADCA951201B6B680075D05A /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 		9A58EBB1201B85F400360188 /* MyNativeModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNativeModule.swift; sourceTree = "<group>"; };
 		9A58EBB3201B8B1200360188 /* MyReactNativeApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyReactNativeApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		9A58EBB4201B8B1200360188 /* MyNativeModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyNativeModule.m; sourceTree = "<group>"; };
+		9A58EBB6201F77A100360188 /* AnotherNativeModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherNativeModule.swift; sourceTree = "<group>"; };
+		9A58EBB8201F781A00360188 /* AnotherNativeModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnotherNativeModule.m; sourceTree = "<group>"; };
 		9ADCA94A201B6B680075D05A /* MyReactNativeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyReactNativeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ADCA94D201B6B680075D05A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9ADCA94F201B6B680075D05A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +110,8 @@
 				9ADCA959201B6B680075D05A /* Info.plist */,
 				9A58EBB4201B8B1200360188 /* MyNativeModule.m */,
 				9A58EBB3201B8B1200360188 /* MyReactNativeApp-Bridging-Header.h */,
+				9A58EBB6201F77A100360188 /* AnotherNativeModule.swift */,
+				9A58EBB8201F781A00360188 /* AnotherNativeModule.m */,
 			);
 			path = MyReactNativeApp;
 			sourceTree = "<group>";
@@ -285,8 +291,10 @@
 			files = (
 				9A58EBB2201B85F400360188 /* MyNativeModule.swift in Sources */,
 				9ADCA950201B6B680075D05A /* ViewController.swift in Sources */,
+				9A58EBB9201F781A00360188 /* AnotherNativeModule.m in Sources */,
 				9A58EBB5201B8B1200360188 /* MyNativeModule.m in Sources */,
 				9ADCA94E201B6B680075D05A /* AppDelegate.swift in Sources */,
+				9A58EBB7201F77A100360188 /* AnotherNativeModule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

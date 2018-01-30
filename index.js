@@ -16,6 +16,11 @@ export default class TestView extends Component<{}> {
     var React = require('react-native');
     React.NativeModules.MyNativeModule.triggerJSRequest();
   }
+  _onPressAnotherButton() {
+    var React = require('react-native');
+    React.NativeModules.AnotherNativeModule.triggerAnotherRequest();
+    React.NativeModules.AnotherNativeModule.callWithName("Fred");
+  }
   render() {
     return (
       <View style={styles.container}>
@@ -25,6 +30,10 @@ export default class TestView extends Component<{}> {
         <Button
             onPress={this._onPressButton}
             title="Press Me"
+          />
+          <Button
+            onPress={this._onPressAnotherButton}
+            title="Press Another Me"
           />
       </View>
     );

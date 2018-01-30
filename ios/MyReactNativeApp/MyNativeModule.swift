@@ -11,31 +11,23 @@ import React
 
 
 @objc(MyNativeModule)
-class MyNativeModule: NSObject, RCTBridgeModule {
+class MyNativeModule: NSObject {
     override init() {
         super.init()
     }
-    
-    static func moduleName() -> String! {
-        return "MyNativeModule"
-    }
-    static func requiresMainQueueSetup() -> Bool {
+    @objc static func requiresMainQueueSetup() -> Bool {
         return false
     }
-    var bridge: RCTBridge?
-    var methodQueue: DispatchQueue?
-    
+    @objc var bridge: RCTBridge?
+    @objc var methodQueue: DispatchQueue?
     @objc func triggerRequest() -> Void {
         print("trigger Request")
     }
-    
-    
     @objc func batchDidComplete() {
-        
+        // do something if needed at the end of the batch
     }
-    
     @objc func partialBatchDidFlush() {
-        
+        // do something if needed at the end of the partial flush of the batch
     }
 }
 
